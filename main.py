@@ -37,7 +37,7 @@ def decode(morse_message: str) -> str:
 
 
 @pytest.mark.parametrize(
-    'source_morse_string,result_eng_string',
+    'source_morse_string, result_eng_string',
     [
         ('-.. .- - .- / ... -.-. .. . -. -.-. .', 'DATA SCIENCE'),
         ('.- ...- .. - ---', 'AVITO'),
