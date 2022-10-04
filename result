@@ -1,0 +1,10 @@
+(venv) PS C:\Users\Ivan\PycharmProjects\testing2>  python -m pytest -v main.py
+================================================================================= test session starts =================================================================================
+cachedir: .pytest_cache
+rootdir: C:\Users\Ivan\PycharmProjects\testing2
+collected 4 items
+
+main.py::test_decode[-.. .- - .- / ... -.-. .. . -. -.-. .-DATA SCIENCE] PASSED                                                                                                  [ 25%] 
+main.py::test_decode[.- ...- .. - ----AVITO] PASSED                                                                                                                              [ 50%] 
+main.py::test_decode[-- .- -.-. .... .. -. . / .-.. . .- .-. -. .. -. --.-MACHINE LEARNING] PASSED                                                                               [ 75%] 
+main.py::test_decode[.-.. --- ...- . / -- . -.-. .... -- .- --LOVE MECHMAT] PASSED                                                                                               [100%] 
